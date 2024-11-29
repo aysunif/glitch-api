@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Apple Pie",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "2",
+        "name": "Cheeseburger",
+        "price": 200,
+        "isDiscounted": false
+      },
+      {
+        "id": "3",
+        "name": "Grilled Chicken Sandwich",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "4",
+        "name": "Spaghetti Bolognese",
+        "price": 200,
+        "isDiscounted": false
+      },
+      {
+        "id": "5",
+        "name": "Margherita Pizza",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "6",
+        "name": "Caesar Salad",
+        "price": 200,
+        "isDiscounted": false
+      },
+      {
+        "id": "7",
+        "name": "Chocolate Cake",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "8",
+        "name": "Fried Chicken Wings",
+        "price": 200,
+        "isDiscounted": false
+      },
+      {
+        "id": "9",
+        "name": "Sushi Roll",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "10",
+        "name": "Vegetable Stir Fry",
+        "price": 200,
+        "isDiscounted": false
+      }
+    ]
+  }
