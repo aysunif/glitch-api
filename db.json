@@ -1,130 +1,211 @@
 {
-  "books": [
+  "users": [
     {
-      "id": "1",
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "genre": "Science Fiction",
-      "publishedYear": 1965
+      "id": 1,
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user1.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "password": "Test123!",
+      "skills": ["JavaScript", "React", "Node.js", "TypeScript"]
     },
     {
-      "id": "2",
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "publishedYear": 1949
+      "id": 2,
+      "name": "Aysel Aliyeva",
+      "email": "aysel.aliyeva@example.com",
+      "createdAt": "2024-11-25T09:00:00Z",
+      "profileImage": "user2.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 4,
+      "bio": "Web developer with a focus on frontend technologies.",
+      "password": "Pass123!",
+      "skills": ["HTML", "CSS", "React", "Sass"]
     },
     {
-      "id": "3",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "genre": "Dystopian",
-      "publishedYear": 1932
+      "id": 3,
+      "name": "Nijat Mahmudov",
+      "email": "nijat.mahmudov@example.com",
+      "createdAt": "2024-11-15T10:00:00Z",
+      "profileImage": "user3.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 3,
+      "bio": "Junior Developer specializing in Python and Flask.",
+      "password": "Nijat123!",
+      "skills": ["Python", "Flask", "Django", "MySQL"]
     },
     {
-      "id": "4",
-      "title": "Fahrenheit 451",
-      "author": "Ray Bradbury",
-      "genre": "Dystopian",
-      "publishedYear": 1953
+      "id": 4,
+      "name": "Leyla Isayeva",
+      "email": "leyla.isayeva@example.com",
+      "createdAt": "2024-10-10T14:00:00Z",
+      "profileImage": "user4.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 7,
+      "bio": "Experienced Backend Developer specializing in Node.js.",
+      "password": "Leyla123!",
+      "skills": ["Node.js", "MongoDB", "Express", "JavaScript"]
     },
     {
-      "id": "5",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1937
+      "id": 5,
+      "name": "Ramil Huseynov",
+      "email": "ramil.huseynov@example.com",
+      "createdAt": "2024-09-05T11:30:00Z",
+      "profileImage": "user5.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 6,
+      "bio": "Full-stack developer with expertise in cloud computing.",
+      "password": "Ramil123!",
+      "skills": ["AWS", "JavaScript", "React", "Node.js"]
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "TechNest LLC",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT",
+      "createdAt": "2023-01-15T12:00:00Z",
+      "website": "https://www.technest.az",
+      "password": "Comp123!",
+      "employeesIds": ["1", "2"],
+      "reviews": [
+        { "userId": 1, "comment": "Great company to work with!", "rating": 5 },
+        { "userId": 2, "comment": "Friendly environment and innovative projects.", "rating": 4 }
+      ]
     },
     {
-      "id": "6",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Fiction",
-      "publishedYear": 1925
+      "id": 2,
+      "name": "InnovateSoft",
+      "location": "Tbilisi, Georgia",
+      "industry": "Software Development",
+      "createdAt": "2022-05-10T15:00:00Z",
+      "website": "https://www.innovatesoft.ge",
+      "password": "Innovate123!",
+      "employeesIds": ["3", "4"],
+      "reviews": [
+        { "userId": 3, "comment": "Collaborative work environment and excellent growth opportunities.", "rating": 5 },
+        { "userId": 4, "comment": "Great company but needs improvement in management.", "rating": 3 }
+      ]
     },
     {
-      "id": "7",
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1851
+      "id": 3,
+      "name": "CodeCrafts",
+      "location": "Baku, Azerbaijan",
+      "industry": "Tech Consulting",
+      "createdAt": "2021-07-22T12:00:00Z",
+      "website": "https://www.codecrafts.az",
+      "password": "Code123!",
+      "employeesIds": ["5", "6"],
+      "reviews": [
+        { "userId": 5, "comment": "Great technical expertise and fast-paced work culture.", "rating": 4 },
+        { "userId": 6, "comment": "Good salary, but management lacks vision.", "rating": 3 }
+      ]
     },
     {
-      "id": "8",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "publishedYear": 1813
+      "id": 4,
+      "name": "DevForce Solutions",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT Services",
+      "createdAt": "2020-11-25T12:00:00Z",
+      "website": "https://www.devforcesolutions.com",
+      "password": "DevForce123!",
+      "employeesIds": ["7", "8"],
+      "reviews": [
+        { "userId": 7, "comment": "Solid work culture, but work-life balance needs improvement.", "rating": 4 },
+        { "userId": 8, "comment": "Fantastic team and exciting projects.", "rating": 5 }
+      ]
     },
     {
-      "id": "9",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Fiction",
-      "publishedYear": 1960
+      "id": 5,
+      "name": "SoftLogic Solutions",
+      "location": "Tbilisi, Georgia",
+      "industry": "Software Development",
+      "createdAt": "2023-05-17T10:00:00Z",
+      "website": "https://www.softlogicsolutions.ge",
+      "password": "SoftLogic123!",
+      "employeesIds": ["9", "10"],
+      "reviews": [
+        { "userId": 9, "comment": "Good environment for learning, but not much room for growth.", "rating": 3 },
+        { "userId": 10, "comment": "Flexible working hours and supportive management.", "rating": 4 }
+      ]
+    }
+  ],
+  "vacancies": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        { "candidateId": "1", "appliedAt": "2024-12-31T23:59:59Z", "linkedinUrl": "url here", "status": "pending" },
+        { "candidateId": "2", "appliedAt": "2024-12-31T23:59:59Z", "linkedinUrl": "url here", "status": "accepted" },
+        { "candidateId": "3", "appliedAt": "2024-12-31T23:59:59Z", "linkedinUrl": "url here", "status": "rejected" }
+      ]
     },
     {
-      "id": "10",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "genre": "Fiction",
-      "publishedYear": 1951
+      "id": 2,
+      "title": "Backend Developer",
+      "companyId": 2,
+      "description": "We are looking for an experienced Backend Developer with expertise in Node.js and MongoDB.",
+      "salary": "3000-4000 AZN",
+      "postedAt": "2024-11-25T09:00:00Z",
+      "expiresAt": "2024-12-25T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        { "candidateId": "4", "appliedAt": "2024-12-10T10:00:00Z", "linkedinUrl": "url here", "status": "pending" },
+        { "candidateId": "5", "appliedAt": "2024-12-05T10:00:00Z", "linkedinUrl": "url here", "status": "accepted" }
+      ]
     },
     {
-      "id": "11",
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1954
+      "id": 3,
+      "title": "Full-stack Developer",
+      "companyId": 3,
+      "description": "Looking for a full-stack developer skilled in React, Node.js, and MongoDB.",
+      "salary": "3500-4500 AZN",
+      "postedAt": "2024-10-20T11:00:00Z",
+      "expiresAt": "2024-11-30T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": false,
+      "candidates": [
+        { "candidateId": "6", "appliedAt": "2024-11-15T13:00:00Z", "linkedinUrl": "url here", "status": "rejected" }
+      ]
     },
     {
-      "id": "12",
-      "title": "The Picture of Dorian Gray",
-      "author": "Oscar Wilde",
-      "genre": "Philosophical Fiction",
-      "publishedYear": 1890
+      "id": 4,
+      "title": "UI/UX Designer",
+      "companyId": 4,
+      "description": "Seeking a UI/UX Designer with experience in Adobe XD and Figma.",
+      "salary": "1500-2000 AZN",
+      "postedAt": "2024-11-01T12:00:00Z",
+      "expiresAt": "2024-12-01T23:59:59Z",
+      "employmentType": "Part-time",
+      "isActive": false,
+      "candidates": [
+        { "candidateId": "7", "appliedAt": "2024-11-20T10:00:00Z", "linkedinUrl": "url here", "status": "pending" }
+      ]
     },
     {
-      "id": "13",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Psychological Fiction",
-      "publishedYear": 1866
-    },
-    {
-      "id": "14",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "genre": "Historical Fiction",
-      "publishedYear": 1869
-    },
-    {
-      "id": "15",
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Philosophical Fiction",
-      "publishedYear": 1880
-    },
-    {
-      "id": "16",
-      "title": "The Shining",
-      "author": "Stephen King",
-      "genre": "Horror",
-      "publishedYear": 1977
-    },
-    {
-      "id": "urBnocV7gU9A_1PU54N1q",
-      "title": "Salam",
-      "author": "Salam",
-      "genre": "Drama",
-      "publishedYear": 2000
-    },
-    {
-      "id": "Swe-Yygrh2gTNQiTarPjz",
-      "title": "Hey",
-      "author": "Hey",
-      "genre": "Hey",
-      "publishedYear": 1999
+      "id": 5,
+      "title": "DevOps Engineer",
+      "companyId": 5,
+      "description": "Looking for an experienced DevOps Engineer with expertise in AWS and Docker.",
+      "salary": "4000-5000 AZN",
+      "postedAt": "2024-12-01T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        { "candidateId": "8", "appliedAt": "2024-12-05T14:00:00Z", "linkedinUrl": "url here", "status": "pending" }
+      ]
     }
   ]
 }
