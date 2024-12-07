@@ -1,34 +1,217 @@
 {
-  "books": [
-    { "id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "genre": "Classics", "price": 10.99 },
-    { "id": 2, "title": "To Kill a Mockingbird", "author": "Harper Lee", "genre": "Classics", "price": 12.99 },
-    { "id": 3, "title": "1984", "author": "George Orwell", "genre": "Dystopian", "price": 14.99 },
-    { "id": 4, "title": "The Catcher in the Rye", "author": "J.D. Salinger", "genre": "Classics", "price": 9.99 },
-    { "id": 5, "title": "The Hobbit", "author": "J.R.R. Tolkien", "genre": "Fantasy", "price": 15.99 },
-    { "id": 6, "title": "Pride and Prejudice", "author": "Jane Austen", "genre": "Romance", "price": 11.99 }
+  "/users": [
+    {
+      "id": 1,
+      "name": "Ali Həsənov",
+      "email": "ali.hasanov@example.com",
+      "profileImage": "https://example.com/images/ali.jpg",
+      "isAdmin": false,
+      "address": "Bakı, Yasamal, M. Əcəmi 12",
+      "password": "hashed_password_123",
+      "basketItems": [
+        { "itemId": 301, "name": "Qarabağ Bayrağı", "quantity": 2, "price": 10 },
+        { "itemId": 302, "name": "Konsert Bileti", "quantity": 1, "price": 25 }
+      ],
+      "created_at": "2024-12-01T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Leyla Məmmədova",
+      "email": "leyla.mammadova@example.com",
+      "profileImage": "https://example.com/images/leyla.jpg",
+      "isAdmin": true,
+      "address": "Gəncə, Nizami Küçəsi, 45",
+      "password": "hashed_password_456",
+      "basketItems": [
+        { "itemId": 303, "name": "Festival Afişası", "quantity": 1, "price": 15 }
+      ],
+      "created_at": "2024-11-25T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Elvin Quliyev",
+      "email": "elvin.quliyev@example.com",
+      "profileImage": "https://example.com/images/elvin.jpg",
+      "isAdmin": false,
+      "address": "Sumqayıt, 28 May 15",
+      "password": "hashed_password_789",
+      "basketItems": [],
+      "created_at": "2024-12-04T09:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Aysel İbrahimova",
+      "email": "aysel.ibrahimova@example.com",
+      "profileImage": "https://example.com/images/aysel.jpg",
+      "isAdmin": false,
+      "address": "Şəki, Qədim Qala küçəsi",
+      "password": "hashed_password_321",
+      "basketItems": [
+        { "itemId": 304, "name": "Mədəniyyət Kitabı", "quantity": 1, "price": 20 }
+      ],
+      "created_at": "2024-12-05T12:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Orxan Məmmədov",
+      "email": "orxan.mammadov@example.com",
+      "profileImage": "https://example.com/images/orxan.jpg",
+      "isAdmin": true,
+      "address": "Naxçıvan, Heydər Əliyev Prospekti",
+      "password": "hashed_password_654",
+      "basketItems": [],
+      "created_at": "2024-11-30T16:20:00Z"
+    }
   ],
-  "orders": [
-    { "id": 1, "userId": 3, "bookId": 2, "quantity": 1, "totalPrice": 12.99, "status": "Completed" },
-    { "id": 2, "userId": 1, "bookId": 4, "quantity": 2, "totalPrice": 19.98, "status": "Pending" },
-    { "id": 3, "userId": 2, "bookId": 6, "quantity": 1, "totalPrice": 11.99, "status": "Shipped" },
-    { "id": 4, "userId": 4, "bookId": 1, "quantity": 1, "totalPrice": 10.99, "status": "Completed" },
-    { "id": 5, "userId": 5, "bookId": 3, "quantity": 3, "totalPrice": 44.97, "status": "Cancelled" },
-    { "id": 6, "userId": 6, "bookId": 5, "quantity": 1, "totalPrice": 15.99, "status": "Pending" }
+  "/events": [
+    {
+      "id": 101,
+      "title": "Açıq Hava Konserti",
+      "date": "2024-12-20T18:00:00Z",
+      "venue_id": 201,
+      "description": "Qarabağ parkında açıq hava musiqi konserti.",
+      "organizer": "Azərbaycan Musiqi Assosiasiyası",
+      "ticketsAvailable": 3000,
+      "category": "Musiqi",
+      "created_at": "2024-11-15T08:00:00Z"
+    },
+    {
+      "id": 102,
+      "title": "Mədəniyyət Festivalı",
+      "date": "2024-12-25T15:00:00Z",
+      "venue_id": 202,
+      "description": "Azərbaycan mədəniyyətini əks etdirən geniş festival.",
+      "organizer": "Milli Mədəniyyət Nazirliyi",
+      "ticketsAvailable": 1000,
+      "category": "Festival",
+      "created_at": "2024-11-20T12:00:00Z"
+    },
+    {
+      "id": 103,
+      "title": "Tarixi Kitab Təqdimatı",
+      "date": "2024-12-18T10:00:00Z",
+      "venue_id": 203,
+      "description": "Tarixi araşdırmalar haqqında kitab təqdimatı.",
+      "organizer": "Azərbaycan Yazıçılar Birliyi",
+      "ticketsAvailable": 200,
+      "category": "Kitab",
+      "created_at": "2024-11-28T14:00:00Z"
+    },
+    {
+      "id": 104,
+      "title": "Film Gecəsi",
+      "date": "2024-12-22T20:00:00Z",
+      "venue_id": 204,
+      "description": "Məşhur Azərbaycan filmlərinin nümayişi.",
+      "organizer": "Milli Kino Mərkəzi",
+      "ticketsAvailable": 150,
+      "category": "Film",
+      "created_at": "2024-12-01T17:00:00Z"
+    },
+    {
+      "id": 105,
+      "title": "İnnovasiya Forumu",
+      "date": "2024-12-30T09:00:00Z",
+      "venue_id": 205,
+      "description": "Texnologiya və biznes sahəsində yeni fikirlər.",
+      "organizer": "İnnovasiya və Texnologiya Mərkəzi",
+      "ticketsAvailable": 500,
+      "category": "Texnologiya",
+      "created_at": "2024-11-30T08:30:00Z"
+    }
   ],
-  "genres": [
-    { "id": 1, "name": "Classics" },
-    { "id": 2, "name": "Dystopian" },
-    { "id": 3, "name": "Fantasy" },
-    { "id": 4, "name": "Romance" },
-    { "id": 5, "name": "Science Fiction" },
-    { "id": 6, "name": "Thriller" }
+  "/venues": [
+    {
+      "id": 201,
+      "name": "Qarabağ Parkı",
+      "location": "Bakı, Azərbaycan",
+      "capacity": 5000,
+      "amenities": ["Pulsuz Wi-Fi", "Avtodayanacaq", "Uşaq Meydançası"],
+      "isOutdoor": true,
+      "created_at": "2024-01-15T09:00:00Z"
+    },
+    {
+      "id": 202,
+      "name": "Mərkəzi Sənət Sarayı",
+      "location": "Gəncə, Azərbaycan",
+      "capacity": 1500,
+      "amenities": ["Konsert Zalı", "Kafe", "VIP Otaqlar"],
+      "isOutdoor": false,
+      "created_at": "2023-12-10T11:00:00Z"
+    },
+    {
+      "id": 203,
+      "name": "Milli Kitabxana",
+      "location": "Bakı, Füzuli küçəsi",
+      "capacity": 700,
+      "amenities": ["Kitab Qalereyası", "Oxu Zalı"],
+      "isOutdoor": false,
+      "created_at": "2022-09-01T08:00:00Z"
+    },
+    {
+      "id": 204,
+      "name": "Kino Sarayı",
+      "location": "Sumqayıt, Şəhər Mərkəzi",
+      "capacity": 300,
+      "amenities": ["3D Kino Zalı", "Kafe"],
+      "isOutdoor": false,
+      "created_at": "2023-01-20T10:00:00Z"
+    },
+    {
+      "id": 205,
+      "name": "İnnovasiya Mərkəzi",
+      "location": "Bakı, Nərimanov rayonu",
+      "capacity": 1000,
+      "amenities": ["Konfrans Zalı", "Ofis Sahəsi"],
+      "isOutdoor": false,
+      "created_at": "2023-06-15T15:00:00Z"
+    }
   ],
-  "users": [
-    { "id": 1, "name": "Alice", "email": "alice@example.com", "role": "client" },
-    { "id": 2, "name": "Bob", "email": "bob@example.com", "role": "client" },
-    { "id": 3, "name": "Charlie", "email": "charlie@example.com", "role": "admin" },
-    { "id": 4, "name": "Diana", "email": "diana@example.com", "role": "client" },
-    { "id": 5, "name": "Eve", "email": "eve@example.com", "role": "client" },
-    { "id": 6, "name": "Frank", "email": "frank@example.com", "role": "admin" }
+  "/tickets": [
+    {
+      "id": 1001,
+      "event_id": 101,
+      "user_id": 1,
+      "price": 25,
+      "status": "confirmed",
+      "seat": "A12",
+      "purchased_at": "2024-12-02T10:00:00Z"
+    },
+    {
+      "id": 1002,
+      "event_id": 102,
+      "user_id": 2,
+      "price": 50,
+      "status": "pending",
+      "seat": "B5",
+      "purchased_at": "2024-12-03T11:30:00Z"
+    },
+    {
+      "id": 1003,
+      "event_id": 103,
+      "user_id": 3,
+      "price": 15,
+      "status": "confirmed",
+      "seat": "C10",
+      "purchased_at": "2024-12-04T09:00:00Z"
+    },
+    {
+      "id": 1004,
+      "event_id": 104,
+      "user_id": 4,
+      "price": 20,
+      "status": "confirmed",
+      "seat": "D1",
+      "purchased_at": "2024-12-05T12:00:00Z"
+    },
+    {
+      "id": 1005,
+      "event_id": 105,
+      "user_id": 5,
+      "price": 100,
+      "status": "pending",
+      "seat": "E15",
+      "purchased_at": "2024-12-06T14:30:00Z"
+    }
   ]
 }
