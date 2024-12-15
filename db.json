@@ -24,13 +24,13 @@
     },
     {
       "id": 3,
-      "name": "Ahmed Khan",
-      "imgSrc": "https://img.freepik.com/free-photo/confident-young-man-illuminated-by-street-lights-walking-outdoors-generated-by-artificial-intelligence_188544-130226.jpg",
-      "genre": "Classical",
-      "country": "India",
-      "age": 35,
-      "info": "A maestro in classical music with international recognition",
-      "isVerified": false,
+      "name": "Carlos Rivera",
+      "imgSrc": "https://t3.ftcdn.net/jpg/06/78/09/78/360_F_678097871_G7OpoHQmiZTj4bHB7YW2HoH1syWfCbB9.jpg",
+      "genre": "Latin",
+      "country": "Mexico",
+      "age": 32,
+      "info": "A celebrated Latin music artist with numerous hits",
+      "isVerified": true,
       "songs": []
     },
     {
@@ -46,13 +46,13 @@
     },
     {
       "id": 5,
-      "name": "Carlos Rivera",
-      "imgSrc": "https://t3.ftcdn.net/jpg/06/78/09/78/360_F_678097871_G7OpoHQmiZTj4bHB7YW2HoH1syWfCbB9.jpg",
-      "genre": "Latin",
-      "country": "Mexico",
-      "age": 32,
-      "info": "A celebrated Latin music artist with numerous hits",
-      "isVerified": true,
+      "name": "Ahmed Khan",
+      "imgSrc": "https://img.freepik.com/free-photo/confident-young-man-illuminated-by-street-lights-walking-outdoors-generated-by-artificial-intelligence_188544-130226.jpg",
+      "genre": "Classical",
+      "country": "India",
+      "age": 35,
+      "info": "A maestro in classical music with international recognition",
+      "isVerified": false,
       "songs": []
     }
   ]
