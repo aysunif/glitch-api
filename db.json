@@ -1,59 +1,84 @@
 {
-  "artists": [
+  "movies": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/029/333/270/small_2x/ai-generative-group-of-happy-business-man-and-business-women-dressed-in-suits-are-smiling-in-the-office-free-photo.jpg",
-      "genre": "Pop",
-      "country": "USA",
-      "age": 30,
-      "info": "A popular artist known for his amazing pop songs",
-      "isVerified": true,
-      "songs": []
+      "id": "1",
+      "title": "Inception",
+      "genre": "sci-fi",
+      "releaseYear": 2010,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "desc": "A thief who steals corporate secrets through dream-sharing technology is tasked with planting an idea into the mind of a CEO.",
+      "cast": [
+        {
+          "id": 1714630921413,
+          "fullName": "Leonardo DiCaprio",
+          "age": "39",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "imgSrc": "https://img.freepik.com/free-photo/cute-young-female-park_23-2147911421.jpg",
-      "genre": "Rock",
-      "country": "UK",
-      "age": 27,
-      "info": "An energetic rock musician with a powerful voice",
-      "isVerified": true,
-      "songs": []
+      "id": "2",
+      "title": "The Godfather",
+      "genre": "crime",
+      "releaseYear": 1972,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg",
+      "desc": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "cast": [
+        {
+          "id": 1714630921414,
+          "fullName": "Marlon Brando",
+          "age": "47",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 3,
-      "name": "Carlos Rivera",
-      "imgSrc": "https://t3.ftcdn.net/jpg/06/78/09/78/360_F_678097871_G7OpoHQmiZTj4bHB7YW2HoH1syWfCbB9.jpg",
-      "genre": "Latin",
-      "country": "Mexico",
-      "age": 32,
-      "info": "A celebrated Latin music artist with numerous hits",
-      "isVerified": true,
-      "songs": []
+      "id": "3",
+      "title": "The Matrix",
+      "genre": "action",
+      "releaseYear": 1999,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
+      "desc": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+      "cast": [
+        {
+          "id": 1714630921415,
+          "fullName": "Keanu Reeves",
+          "age": "35",
+          "country": "Canada"
+        }
+      ]
     },
     {
-      "id": 4,
-      "name": "Lisa Wong",
-      "imgSrc": "https://media.istockphoto.com/id/1326417862/photo/young-woman-laughing-while-relaxing-at-home.jpg?s=612x612&w=0&k=20&c=cd8e6RBGOe4b8a8vTcKW0Jo9JONv1bKSMTKcxaCra8c=",
-      "genre": "Jazz",
-      "country": "Australia",
-      "age": 29,
-      "info": "A jazz artist known for her soulful melodies",
-      "isVerified": true,
-      "songs": []
+      "id": "4",
+      "title": "Forrest Gump",
+      "genre": "drama",
+      "releaseYear": 1994,
+      "poster": "https://m.media-amazon.com/images/I/41Al9falobL._AC_UF894,1000_QL80_.jpg",
+      "desc": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and more through the perspective of an Alabama man with an IQ of 75.",
+      "cast": [
+        {
+          "id": 1714630921416,
+          "fullName": "Tom Hanks",
+          "age": "38",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 5,
-      "name": "Ahmed Khan",
-      "imgSrc": "https://img.freepik.com/free-photo/confident-young-man-illuminated-by-street-lights-walking-outdoors-generated-by-artificial-intelligence_188544-130226.jpg",
-      "genre": "Classical",
-      "country": "India",
-      "age": 35,
-      "info": "A maestro in classical music with international recognition",
-      "isVerified": false,
-      "songs": []
+      "id": "5",
+      "title": "The Dark Knight",
+      "genre": "superhero",
+      "releaseYear": 2008,
+      "poster": "https://m.media-amazon.com/images/I/A1exRxgHRRL.jpg",
+      "desc": "When the menace known as the Joker wreaks havoc on Gotham City, Batman must accept one of the greatest psychological and physical tests of his ability.",
+      "cast": [
+        {
+          "id": 1714630921417,
+          "fullName": "Christian Bale",
+          "age": "34",
+          "country": "UK"
+        }
+      ]
     }
   ]
 }
