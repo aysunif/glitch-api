@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Azərbaycan",
       "population": 10139177,
-      "flagImg": "https://example.com/azerbaijan.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1200px-Flag_of_Azerbaijan.svg.png",
       "capital": "Bakı",
       "description": "Cənubi Qafqazda yerləşən ölkə.",
       "religion": "İslam"
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Türkiyə",
       "population": 84339067,
-      "flagImg": "https://example.com/turkey.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
       "capital": "Ankara",
       "description": "Avropa və Asiya arasında yerləşən ölkə.",
       "religion": "İslam"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Almaniya",
       "population": 83166711,
-      "flagImg": "https://example.com/germany.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
       "capital": "Berlin",
       "description": "Avropanın mərkəzində yerləşən ölkə.",
       "religion": "Xristianlıq"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Fransa",
       "population": 67399000,
-      "flagImg": "https://example.com/france.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
       "capital": "Paris",
       "description": "Dünyanın məşhur mədəniyyət mərkəzlərindən biri.",
       "religion": "Xristianlıq"
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "İngiltərə",
       "population": 67081000,
-      "flagImg": "https://example.com/uk.png",
+      "flagImg": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
       "capital": "London",
       "description": "Dünyanın ən qədim demokratiyalarından biri.",
       "religion": "Xristianlıq"
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Çin",
       "population": 1444216107,
-      "flagImg": "https://example.com/china.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/2560px-Flag_of_the_People%27s_Republic_of_China.svg.png",
       "capital": "Pekin",
       "description": "Dünyanın ən böyük əhalisinə malik ölkəsi.",
       "religion": "Budda və digər"
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Hindistan",
       "population": 1393409038,
-      "flagImg": "https://example.com/india.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
       "capital": "Yeni Dehli",
       "description": "Cənubi Asiyanın ən böyük ölkəsi.",
       "religion": "Hinduizm"
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Yaponiya",
       "population": 125836021,
-      "flagImg": "https://example.com/japan.png",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/640px-Flag_of_Japan.svg.png",
       "capital": "Tokio",
       "description": "Texnologiya və innovasiya mərkəzi.",
       "religion": "Şintoizm və Buddizm"
