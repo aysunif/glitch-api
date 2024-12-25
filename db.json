@@ -1,142 +1,81 @@
 {
-  "countries": [
+  "animals": [
     {
       "id": 1,
-      "name": "Azərbaycan",
-      "population": 10139177,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1200px-Flag_of_Azerbaijan.svg.png",
-      "capital": "Bakı",
-      "description": "Cənubi Qafqazda yerləşən ölkə.",
-      "religion": "İslam"
+      "name": "Buddy",
+      "animalType": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "weight": 30,
+      "owner": "John Doe",
+      "ImageURL": "https://pangovet.com/wp-content/uploads/2021/03/golden-retriever-lying-in-the-forest_Olena-Brodetska_Shutterstock.jpg"
     },
     {
       "id": 2,
-      "name": "Türkiyə",
-      "population": 84339067,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
-      "capital": "Ankara",
-      "description": "Avropa və Asiya arasında yerləşən ölkə.",
-      "religion": "İslam"
+      "name": "Whiskers",
+      "animalType": "Cat",
+      "breed": "Siamese",
+      "age": 2,
+      "weight": 8,
+      "owner": "Jane Smith",
+      "ImageURL": "https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1678934108.5188236/everything-you-need-to-know-about-siamese-cats.png"
     },
     {
       "id": 3,
-      "name": "Almaniya",
-      "population": 83166711,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
-      "capital": "Berlin",
-      "description": "Avropanın mərkəzində yerləşən ölkə.",
-      "religion": "Xristianlıq"
+      "name": "Charlie",
+      "animalType": "Dog",
+      "breed": "Beagle",
+      "age": 4,
+      "weight": 12,
+      "owner": "Michael Johnson",
+      "ImageURL": "https://cdn-ghckb.nitrocdn.com/ywsRCaHzPZOrRGmIQthcAKzblzYFHUKW/assets/images/optimized/rev-d3835d7/blog.myollie.com/wp-content/uploads/2020/02/beagle-puppy-running-through-a-yard-with-a-ball-in-his-mouth.jpg"
     },
     {
       "id": 4,
-      "name": "Fransa",
-      "population": 67399000,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
-      "capital": "Paris",
-      "description": "Dünyanın məşhur mədəniyyət mərkəzlərindən biri.",
-      "religion": "Xristianlıq"
+      "name": "Polly",
+      "animalType": "Bird",
+      "breed": "Parrot",
+      "age": 5,
+      "weight": 1,
+      "owner": "Emily Clark",
+      "ImageURL": "https://www.treehugger.com/thmb/F5G8zaALRp7rvgWqDVT13t9pKY8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-scarlet-macaw-flying-in-mid-air-634869043-f360b379b8c44a28a052b41d99adc2a7.jpg"
     },
     {
       "id": 5,
-      "name": "İngiltərə",
-      "population": 67081000,
-      "flagImg": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
-      "capital": "London",
-      "description": "Dünyanın ən qədim demokratiyalarından biri.",
-      "religion": "Xristianlıq"
-    },
-    {
-      "id": 6,
-      "name": "Çin",
-      "population": 1444216107,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/2560px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-      "capital": "Pekin",
-      "description": "Dünyanın ən böyük əhalisinə malik ölkəsi.",
-      "religion": "Budda və digər"
-    },
-    {
-      "id": 7,
-      "name": "Hindistan",
-      "population": 1393409038,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
-      "capital": "Yeni Dehli",
-      "description": "Cənubi Asiyanın ən böyük ölkəsi.",
-      "religion": "Hinduizm"
-    },
-    {
-      "id": 8,
-      "name": "Yaponiya",
-      "population": 125836021,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/640px-Flag_of_Japan.svg.png",
-      "capital": "Tokio",
-      "description": "Texnologiya və innovasiya mərkəzi.",
-      "religion": "Şintoizm və Buddizm"
+      "name": "Gessy",
+      "animalType": "Dog",
+      "breed": "Pomeranian",
+      "age": 4,
+      "weight": 5,
+      "owner": "Sophia Turner",
+      "ImageURL": "https://image.petmd.com/files/styles/863x625/public/2024-08/pomeranian-dog-breed.jpg"
     }
   ],
-  "messages": [
+  "sliders": [
     {
       "id": 1,
-      "fullName": "Elnur Əliyev",
-      "email": "elnur@example.com",
-      "title": "Salam",
-      "message": "Nə vaxt görüşə bilərik?",
-      "isRead": false
+      "title": "Golden Retriever: The Best Family Dog",
+      "url": "https://citizenshipper.com/blog/wp-content/uploads/2024/10/v2-j4f5h-9xu8f-768x442.jpg"
     },
     {
       "id": 2,
-      "fullName": "Aygün Məmmədova",
-      "email": "aygun@example.com",
-      "title": "Təklif",
-      "message": "Yeni layihə təklifi haqqında danışmaq istəyirəm.",
-      "isRead": true
+      "title": "10 Interesting Facts About Siamese Cats",
+      "url": "https://newsukraine.rbc.ua/static/img/c/u/cute_cat_laying_couch_23_2149078343_243378ec796cdc40dc78ec1598996921_1300x820_2ef9d273ffdfa856da4d0e2ad49464df_1200x675.jpg"
     },
     {
       "id": 3,
-      "fullName": "Rəşad Quliyev",
-      "email": "reshad@example.com",
-      "title": "Təşəkkür",
-      "message": "Köməyiniz üçün təşəkkür edirəm.",
-      "isRead": false
+      "title": "How to Train a Beagle: Tips & Tricks",
+      "url": "https://www.akc.org/wp-content/uploads/2021/01/Beagle-puppy-on-leash-walking-in-the-grass.jpeg"
     },
     {
       "id": 4,
-      "fullName": "Nigar Hüseynova",
-      "email": "nigar@example.com",
-      "title": "Sual",
-      "message": "Layihə haqqında bir neçə sualım var.",
-      "isRead": true
+      "title": "The Fascinating World of Parrots",
+      "url": "https://www.lapetfair.com/wp-content/uploads/2024/02/macaws-1024x585.jpg"
     },
     {
       "id": 5,
-      "fullName": "Orxan İbrahimov",
-      "email": "orxan@example.com",
-      "title": "Təklif",
-      "message": "Yeni əməkdaşlıq təklifi var.",
-      "isRead": false
-    },
-    {
-      "id": 6,
-      "fullName": "Leyla Vəliyeva",
-      "email": "leyla@example.com",
-      "title": "Xahiş",
-      "message": "Mənə bu mövzu üzrə kömək edə bilərsinizmi?",
-      "isRead": true
-    },
-    {
-      "id": 7,
-      "fullName": "Fuad Nəsirov",
-      "email": "fuad@example.com",
-      "title": "İş",
-      "message": "Görüş təyin etmək istəyirəm.",
-      "isRead": false
-    },
-    {
-      "id": 8,
-      "fullName": "Zəhra Qurbanova",
-      "email": "zehra@example.com",
-      "title": "Məlumat",
-      "message": "Layihə haqqında daha ətraflı məlumat verə bilərsinizmi?",
-      "isRead": true
+      "title": "The Charm of Pomeranians: Why They're Great Companions",
+      "url": "https://e87o6y2muwg.exactdn.com/wp-content/uploads/2024/06/pomeranian-ss2376586375.jpg?strip=all&lossy=1&ssl=1"
     }
   ]
 }
