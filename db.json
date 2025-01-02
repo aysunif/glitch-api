@@ -1,81 +1,1475 @@
 {
-  "animals": [
+  "users": [
     {
-      "id": 1,
-      "name": "Buddy",
-      "animalType": "Dog",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "weight": 30,
-      "owner": "John Doe",
-      "ImageURL": "https://pangovet.com/wp-content/uploads/2021/03/golden-retriever-lying-in-the-forest_Olena-Brodetska_Shutterstock.jpg"
+      "id": "u1",
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Programming",
+      "bio": "Passionate about teaching math and programming.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      }
     },
     {
-      "id": 2,
-      "name": "Whiskers",
-      "animalType": "Cat",
-      "breed": "Siamese",
-      "age": 2,
-      "weight": 8,
-      "owner": "Jane Smith",
-      "ImageURL": "https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1678934108.5188236/everything-you-need-to-know-about-siamese-cats.png"
+      "id": "u2",
+      "fullName": "Jane Smith",
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "securepass",
+      "profileImage": "https://engineering.unl.edu/images/staff/Kayla-Person.jpg",
+      "role": "student",
+      "major": "IT",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 85
+        }
+      ],
+      "overallGrade": 87
     },
     {
-      "id": 3,
-      "name": "Charlie",
-      "animalType": "Dog",
-      "breed": "Beagle",
-      "age": 4,
-      "weight": 12,
-      "owner": "Michael Johnson",
-      "ImageURL": "https://cdn-ghckb.nitrocdn.com/ywsRCaHzPZOrRGmIQthcAKzblzYFHUKW/assets/images/optimized/rev-d3835d7/blog.myollie.com/wp-content/uploads/2020/02/beagle-puppy-running-through-a-yard-with-a-ball-in-his-mouth.jpg"
+      "id": "u3",
+      "fullName": "Alice Brown",
+      "username": "alicebrown",
+      "email": "alice.brown@example.com",
+      "password": "securepass123",
+      "profileImage": "https://engineering.unl.edu/images/staff/Kayla-Person.jpg",
+      "role": "teacher",
+      "major": "Mathematics",
+      "bio": "Enjoys explaining complex topics in a simple way.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/alicebrown",
+        "twitter": "https://twitter.com/alicebrown"
+      }
     },
     {
-      "id": 4,
-      "name": "Polly",
-      "animalType": "Bird",
-      "breed": "Parrot",
-      "age": 5,
-      "weight": 1,
-      "owner": "Emily Clark",
-      "ImageURL": "https://www.treehugger.com/thmb/F5G8zaALRp7rvgWqDVT13t9pKY8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-scarlet-macaw-flying-in-mid-air-634869043-f360b379b8c44a28a052b41d99adc2a7.jpg"
+      "id": "u4",
+      "fullName": "Bob White",
+      "username": "bobwhite",
+      "email": "bob.white@example.com",
+      "password": "mypassword123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Physics",
+      "grades": [
+        {
+          "taskId": "t2",
+          "grade": 90
+        }
+      ],
+      "overallGrade": 92
     },
     {
-      "id": 5,
-      "name": "Gessy",
-      "animalType": "Dog",
-      "breed": "Pomeranian",
-      "age": 4,
-      "weight": 5,
-      "owner": "Sophia Turner",
-      "ImageURL": "https://image.petmd.com/files/styles/863x625/public/2024-08/pomeranian-dog-breed.jpg"
+      "id": "u5",
+      "fullName": "Charlie Green",
+      "username": "charliegreen",
+      "email": "charlie.green@example.com",
+      "password": "charliepass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Computer Science",
+      "bio": "Loves exploring new algorithms and data structures.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/charliegreen",
+        "twitter": "https://twitter.com/charliegreen"
+      }
+    },
+    {
+      "id": "u6",
+      "fullName": "David Black",
+      "username": "davidblack",
+      "email": "david.black@example.com",
+      "password": "davidpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Electrical Engineering",
+      "grades": [
+        {
+          "taskId": "t3",
+          "grade": 78
+        }
+      ],
+      "overallGrade": 80
+    },
+    {
+      "id": "u7",
+      "fullName": "Eva Adams",
+      "username": "evaadams",
+      "email": "eva.adams@example.com",
+      "password": "evapass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Biology",
+      "bio": "Strives to make science engaging and accessible.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/evaadams",
+        "twitter": "https://twitter.com/evaadams"
+      }
+    },
+    {
+      "id": "u8",
+      "fullName": "Frank Harris",
+      "username": "frankharris",
+      "email": "frank.harris@example.com",
+      "password": "frankpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Chemistry",
+      "grades": [
+        {
+          "taskId": "t4",
+          "grade": 88
+        }
+      ],
+      "overallGrade": 91
+    },
+    {
+      "id": "u9",
+      "fullName": "Grace Wilson",
+      "username": "gracewilson",
+      "email": "grace.wilson@example.com",
+      "password": "gracepass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Psychology",
+      "bio": "Passionate about understanding human behavior.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/gracewilson",
+        "twitter": "https://twitter.com/gracewilson"
+      }
+    },
+    {
+      "id": "u10",
+      "fullName": "Henry King",
+      "username": "henryking",
+      "email": "henry.king@example.com",
+      "password": "henrypass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "History",
+      "grades": [
+        {
+          "taskId": "t5",
+          "grade": 93
+        }
+      ],
+      "overallGrade": 95
+    },
+    {
+      "id": "u11",
+      "fullName": "Isla Martin",
+      "username": "islamartin",
+      "email": "isla.martin@example.com",
+      "password": "islapass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Philosophy",
+      "bio": "Aims to inspire critical thinking and reflection.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/islamartin",
+        "twitter": "https://twitter.com/islamartin"
+      }
+    },
+    {
+      "id": "u12",
+      "fullName": "Jack Thompson",
+      "username": "jackthompson",
+      "email": "jack.thompson@example.com",
+      "password": "jackpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Sociology",
+      "grades": [
+        {
+          "taskId": "t6",
+          "grade": 84
+        }
+      ],
+      "overallGrade": 86
+    },
+    {
+      "id": "u13",
+      "fullName": "Kate Lopez",
+      "username": "katelopez",
+      "email": "kate.lopez@example.com",
+      "password": "katepass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Political Science",
+      "bio": "Fascinated by global issues and governance.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/katelopez",
+        "twitter": "https://twitter.com/katelopez"
+      }
+    },
+    {
+      "id": "u14",
+      "fullName": "Liam Harris",
+      "username": "liamharris",
+      "email": "liam.harris@example.com",
+      "password": "liampass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Law",
+      "grades": [
+        {
+          "taskId": "t7",
+          "grade": 76
+        }
+      ],
+      "overallGrade": 78
+    },
+    {
+      "id": "u15",
+      "fullName": "Megan Clark",
+      "username": "meganclark",
+      "email": "megan.clark@example.com",
+      "password": "meganpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Engineering",
+      "bio": "Passionate about problem-solving and innovation.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/meganclark",
+        "twitter": "https://twitter.com/meganclark"
+      }
+    },
+    {
+      "id": "u16",
+      "fullName": "Nathan Perez",
+      "username": "nathanperez",
+      "email": "nathan.perez@example.com",
+      "password": "nathanpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Business Administration",
+      "grades": [
+        {
+          "taskId": "t8",
+          "grade": 85
+        }
+      ],
+      "overallGrade": 89
+    },
+    {
+      "id": "u17",
+      "fullName": "Olivia Martinez",
+      "username": "oliviamartinez",
+      "email": "olivia.martinez@example.com",
+      "password": "oliviapass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "English",
+      "bio": "Dedicated to fostering a love for literature.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/oliviamartinez",
+        "twitter": "https://twitter.com/oliviamartinez"
+      }
+    },
+    {
+      "id": "u18",
+      "fullName": "Paul Johnson",
+      "username": "pauljohnson",
+      "email": "paul.johnson@example.com",
+      "password": "paulpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Economics",
+      "grades": [
+        {
+          "taskId": "t9",
+          "grade": 88
+        }
+      ],
+      "overallGrade": 90
+    },
+    {
+      "id": "u19",
+      "fullName": "Quinn Lee",
+      "username": "quinnlee",
+      "email": "quinn.lee@example.com",
+      "password": "quinnpass123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Music",
+      "bio": "Bringing creativity and rhythm to the classroom.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/quinnlee",
+        "twitter": "https://twitter.com/quinnlee"
+      }
     }
   ],
-  "sliders": [
+  "classes": [
+    {
+      "id": "c1",
+      "name": "Algebra Basics",
+      "teacherId": "u1",
+      "topics": [
+        "Linear Equations",
+        "Quadratic Equations"
+      ],
+      "major": "Programming",
+      "studentIds": [
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "10:00 - 11:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 - 11:30"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Physics 101",
+      "teacherId": "u5",
+      "topics": [
+        "Newton's Laws",
+        "Electromagnetism"
+      ],
+      "major": "Physics",
+      "studentIds": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "11:00 - 12:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "11:00 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Intro to Programming",
+      "teacherId": "u6",
+      "topics": [
+        "Variables",
+        "Loops",
+        "Functions"
+      ],
+      "major": "Computer Science",
+      "studentIds": [
+        "u7",
+        "u8",
+        "u9",
+        "u10"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "14:00 - 15:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "14:00 - 15:30"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Biology 101",
+      "teacherId": "u11",
+      "topics": [
+        "Cells",
+        "Genetics"
+      ],
+      "major": "Biology",
+      "studentIds": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "09:00 - 10:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "09:00 - 10:30"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Psychology Basics",
+      "teacherId": "u12",
+      "topics": [
+        "Cognition",
+        "Behavioral Psychology"
+      ],
+      "major": "Psychology",
+      "studentIds": [
+        "u13"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "08:30 - 10:00"
+        },
+        {
+          "day": "Thursday",
+          "time": "08:30 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Sociology Fundamentals",
+      "teacherId": "u14",
+      "topics": [
+        "Social Structures",
+        "Cultural Norms"
+      ],
+      "major": "Sociology",
+      "studentIds": [
+        "u15",
+        "u16"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "13:00 - 14:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "13:00 - 14:30"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "Political Science",
+      "teacherId": "u17",
+      "topics": [
+        "Governance",
+        "Political Theories"
+      ],
+      "major": "Political Science",
+      "studentIds": [
+        "u18"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "11:00 - 12:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "11:00 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "History of Economics",
+      "teacherId": "u19",
+      "topics": [
+        "Microeconomics",
+        "Macroeconomics"
+      ],
+      "major": "Economics",
+      "studentIds": [
+        "u20"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "09:00 - 10:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "09:00 - 10:30"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Engineering Mathematics",
+      "teacherId": "u21",
+      "topics": [
+        "Calculus",
+        "Linear Algebra"
+      ],
+      "major": "Engineering",
+      "studentIds": [
+        "u22",
+        "u23",
+        "u24"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "10:00 - 11:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 - 11:30"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "name": "Introduction to Law",
+      "teacherId": "u25",
+      "topics": [
+        "Legal Systems",
+        "Criminal Law"
+      ],
+      "major": "Law",
+      "studentIds": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "10:00 - 11:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 - 11:30"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "name": "Advanced Calculus",
+      "teacherId": "u26",
+      "topics": [
+        "Differentiation",
+        "Integration"
+      ],
+      "major": "Mathematics",
+      "studentIds": [
+        "u27",
+        "u28"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "14:00 - 15:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "14:00 - 15:30"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "name": "Organic Chemistry",
+      "teacherId": "u29",
+      "topics": [
+        "Molecular Structures",
+        "Reactions"
+      ],
+      "major": "Chemistry",
+      "studentIds": [
+        "u30"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "15:00 - 16:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "15:00 - 16:30"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "name": "Computer Networks",
+      "teacherId": "u31",
+      "topics": [
+        "IP Addresses",
+        "Routing"
+      ],
+      "major": "Information Technology",
+      "studentIds": [
+        "u32",
+        "u33",
+        "u34"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "16:00 - 17:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:00 - 17:30"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "name": "Genetics 101",
+      "teacherId": "u35",
+      "topics": [
+        "DNA Structure",
+        "Inheritance Patterns"
+      ],
+      "major": "Genetics",
+      "studentIds": [
+        "u36"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "08:30 - 10:00"
+        },
+        {
+          "day": "Wednesday",
+          "time": "08:30 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "name": "Philosophy: Ethics",
+      "teacherId": "u37",
+      "topics": [
+        "Moral Theories",
+        "Ethical Dilemmas"
+      ],
+      "major": "Philosophy",
+      "studentIds": [
+        "u38",
+        "u39",
+        "u40"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "13:00 - 14:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "13:00 - 14:30"
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "name": "Macroeconomics",
+      "teacherId": "u41",
+      "topics": [
+        "National Income",
+        "Inflation"
+      ],
+      "major": "Economics",
+      "studentIds": [
+        "u42"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "15:00 - 16:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "15:00 - 16:30"
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "name": "Cognitive Science",
+      "teacherId": "u43",
+      "topics": [
+        "Perception",
+        "Decision Making"
+      ],
+      "major": "Psychology",
+      "studentIds": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "09:00 - 10:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "09:00 - 10:30"
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "name": "Introduction to Sociology",
+      "teacherId": "u44",
+      "topics": [
+        "Socialization",
+        "Deviance"
+      ],
+      "major": "Sociology",
+      "studentIds": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "08:00 - 09:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "08:00 - 09:30"
+        }
+      ]
+    },
+    {
+      "id": "c19",
+      "name": "Advanced Political Science",
+      "teacherId": "u45",
+      "topics": [
+        "Political Philosophy",
+        "Democracy"
+      ],
+      "major": "Political Science",
+      "studentIds": [
+        "u46"
+      ],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "11:00 - 12:30"
+        },
+        {
+          "day": "Thursday",
+          "time": "11:00 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": "c20",
+      "name": "Global Economics",
+      "teacherId": "u47",
+      "topics": [
+        "Global Trade",
+        "Economic Policy"
+      ],
+      "major": "Economics",
+      "studentIds": [
+        "u48",
+        "u49",
+        "u50"
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "14:00 - 15:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "14:00 - 15:30"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "classId": "c1",
+      "title": "Linear Equations Assignment",
+      "description": "Solve 10 linear equations.",
+      "topic": "Linear Equations",
+      "deadline": "2024-01-20T23:59:59Z",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": [
+        "a1"
+      ],
+      "completionRate": 50
+    },
+    {
+      "id": "t2",
+      "classId": "c2",
+      "title": "Newton's Laws Assignment",
+      "description": "Solve problems on Newton's laws of motion.",
+      "topic": "Newton's Laws",
+      "deadline": "2024-01-25T23:59:59Z",
+      "createdAt": "2024-01-12T09:00:00Z",
+      "teacherId": "u3",
+      "assignments": [
+        "a2"
+      ],
+      "completionRate": 60
+    },
+    {
+      "id": "t3",
+      "classId": "c3",
+      "title": "Basic Programming Assignment",
+      "description": "Write a program to calculate factorial.",
+      "topic": "Functions",
+      "deadline": "2024-02-01T23:59:59Z",
+      "createdAt": "2024-01-14T10:00:00Z",
+      "teacherId": "u5",
+      "assignments": [
+        "a3"
+      ],
+      "completionRate": 70
+    },
+    {
+      "id": "t4",
+      "classId": "c4",
+      "title": "Genetics Problems",
+      "description": "Solve genetics-related problems.",
+      "topic": "Genetics",
+      "deadline": "2024-01-30T23:59:59Z",
+      "createdAt": "2024-01-20T09:00:00Z",
+      "teacherId": "u7",
+      "assignments": [
+        "a4"
+      ],
+      "completionRate": 80
+    },
+    {
+      "id": "t5",
+      "classId": "c5",
+      "title": "Psychology Assignment",
+      "description": "Write an essay on cognitive development.",
+      "topic": "Cognition",
+      "deadline": "2024-02-05T23:59:59Z",
+      "createdAt": "2024-01-22T10:00:00Z",
+      "teacherId": "u9",
+      "assignments": [
+        "a5"
+      ],
+      "completionRate": 90
+    },
+    {
+      "id": "t6",
+      "classId": "c6",
+      "title": "Sociology Essay",
+      "description": "Write an essay on social structures.",
+      "topic": "Social Structures",
+      "deadline": "2024-02-10T23:59:59Z",
+      "createdAt": "2024-01-25T10:00:00Z",
+      "teacherId": "u11",
+      "assignments": [
+        "a6"
+      ],
+      "completionRate": 75
+    },
+    {
+      "id": "t7",
+      "classId": "c7",
+      "title": "Political Science Paper",
+      "description": "Write a paper on the history of democracy.",
+      "topic": "Governance",
+      "deadline": "2024-02-15T23:59:59Z",
+      "createdAt": "2024-01-28T10:00:00Z",
+      "teacherId": "u13",
+      "assignments": [
+        "a7"
+      ],
+      "completionRate": 85
+    },
+    {
+      "id": "t8",
+      "classId": "c8",
+      "title": "Macroeconomics Assignment",
+      "description": "Solve macroeconomics-related questions.",
+      "topic": "Macroeconomics",
+      "deadline": "2024-02-20T23:59:59Z",
+      "createdAt": "2024-02-01T09:00:00Z",
+      "teacherId": "u15",
+      "assignments": [
+        "a8"
+      ],
+      "completionRate": 90
+    },
+    {
+      "id": "t9",
+      "classId": "c9",
+      "title": "Advanced Calculus Problem Set",
+      "description": "Solve a set of advanced calculus problems.",
+      "topic": "Calculus",
+      "deadline": "2024-02-25T23:59:59Z",
+      "createdAt": "2024-02-05T10:00:00Z",
+      "teacherId": "u17",
+      "assignments": [
+        "a9"
+      ],
+      "completionRate": 95
+    },
+    {
+      "id": "t10",
+      "classId": "c10",
+      "title": "Law Case Study",
+      "description": "Analyze a law case and provide insights.",
+      "topic": "Legal Systems",
+      "deadline": "2024-03-01T23:59:59Z",
+      "createdAt": "2024-02-08T09:00:00Z",
+      "teacherId": "u19",
+      "assignments": [
+        "a10"
+      ],
+      "completionRate": 90
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "taskId": "t1",
+      "studentId": "u2",
+      "url": "https://example.com/assignment1.pdf",
+      "assignDate": "2024-01-15T10:00:00Z",
+      "status": "submitted",
+      "feedback": "Great effort! Improve presentation next time."
+    },
+    {
+      "id": "a2",
+      "taskId": "t2",
+      "studentId": "u4",
+      "url": "https://example.com/assignment2.pdf",
+      "assignDate": "2024-01-16T11:00:00Z",
+      "status": "submitted",
+      "feedback": "Good work! Focus on clarity in your explanations."
+    },
+    {
+      "id": "a3",
+      "taskId": "t3",
+      "studentId": "u6",
+      "url": "https://example.com/assignment3.pdf",
+      "assignDate": "2024-01-17T12:00:00Z",
+      "status": "submitted",
+      "feedback": "Nice solution! Make sure to optimize your code next time."
+    },
+    {
+      "id": "a4",
+      "taskId": "t4",
+      "studentId": "u8",
+      "url": "https://example.com/assignment4.pdf",
+      "assignDate": "2024-01-18T13:00:00Z",
+      "status": "submitted",
+      "feedback": "Well done! Keep up the good work."
+    },
+    {
+      "id": "a5",
+      "taskId": "t5",
+      "studentId": "u10",
+      "url": "https://example.com/assignment5.pdf",
+      "assignDate": "2024-01-19T14:00:00Z",
+      "status": "submitted",
+      "feedback": "Great essay! Focus on the conclusion in future assignments."
+    },
+    {
+      "id": "a6",
+      "taskId": "t6",
+      "studentId": "u12",
+      "url": "https://example.com/assignment6.pdf",
+      "assignDate": "2024-01-21T15:00:00Z",
+      "status": "submitted",
+      "feedback": "Interesting perspective! Work on providing more examples."
+    },
+    {
+      "id": "a7",
+      "taskId": "t7",
+      "studentId": "u14",
+      "url": "https://example.com/assignment7.pdf",
+      "assignDate": "2024-01-22T16:00:00Z",
+      "status": "submitted",
+      "feedback": "Good paper! Enhance your introduction next time."
+    },
+    {
+      "id": "a8",
+      "taskId": "t8",
+      "studentId": "u16",
+      "url": "https://example.com/assignment8.pdf",
+      "assignDate": "2024-01-23T17:00:00Z",
+      "status": "submitted",
+      "feedback": "Solid work! Be more concise in your writing."
+    },
+    {
+      "id": "a9",
+      "taskId": "t9",
+      "studentId": "u18",
+      "url": "https://example.com/assignment9.pdf",
+      "assignDate": "2024-01-24T18:00:00Z",
+      "status": "submitted",
+      "feedback": "Excellent work! Keep it up."
+    },
+    {
+      "id": "a10",
+      "taskId": "t10",
+      "studentId": "u20",
+      "url": "https://example.com/assignment10.pdf",
+      "assignDate": "2024-01-25T19:00:00Z",
+      "status": "submitted",
+      "feedback": "Good analysis! More depth needed in your arguments."
+    }
+  ],
+  "invitations": [
+    {
+      "id": "i1",
+      "classId": "c1",
+      "studentId": "u2",
+      "status": "accepted",
+      "expiresAt": "2024-01-15T23:59:59Z"
+    },
+    {
+      "id": "i2",
+      "classId": "c2",
+      "studentId": "u4",
+      "status": "pending",
+      "expiresAt": "2024-01-20T23:59:59Z"
+    },
+    {
+      "id": "i3",
+      "classId": "c3",
+      "studentId": "u6",
+      "status": "accepted",
+      "expiresAt": "2024-01-18T23:59:59Z"
+    },
+    {
+      "id": "i4",
+      "classId": "c4",
+      "studentId": "u8",
+      "status": "rejected",
+      "expiresAt": "2024-01-22T23:59:59Z"
+    },
+    {
+      "id": "i5",
+      "classId": "c5",
+      "studentId": "u10",
+      "status": "accepted",
+      "expiresAt": "2024-01-17T23:59:59Z"
+    },
+    {
+      "id": "i6",
+      "classId": "c6",
+      "studentId": "u12",
+      "status": "pending",
+      "expiresAt": "2024-01-25T23:59:59Z"
+    },
+    {
+      "id": "i7",
+      "classId": "c7",
+      "studentId": "u14",
+      "status": "rejected",
+      "expiresAt": "2024-01-30T23:59:59Z"
+    },
+    {
+      "id": "i8",
+      "classId": "c8",
+      "studentId": "u16",
+      "status": "accepted",
+      "expiresAt": "2024-02-02T23:59:59Z"
+    },
+    {
+      "id": "i9",
+      "classId": "c9",
+      "studentId": "u18",
+      "status": "accepted",
+      "expiresAt": "2024-02-05T23:59:59Z"
+    },
+    {
+      "id": "i10",
+      "classId": "c10",
+      "studentId": "u20",
+      "status": "pending",
+      "expiresAt": "2024-02-10T23:59:59Z"
+    },
+    {
+      "id": "i11",
+      "classId": "c11",
+      "studentId": "u2",
+      "status": "accepted",
+      "expiresAt": "2024-01-18T23:59:59Z"
+    },
+    {
+      "id": "i12",
+      "classId": "c12",
+      "studentId": "u4",
+      "status": "rejected",
+      "expiresAt": "2024-01-21T23:59:59Z"
+    },
+    {
+      "id": "i13",
+      "classId": "c13",
+      "studentId": "u6",
+      "status": "pending",
+      "expiresAt": "2024-01-24T23:59:59Z"
+    },
+    {
+      "id": "i14",
+      "classId": "c14",
+      "studentId": "u8",
+      "status": "accepted",
+      "expiresAt": "2024-01-23T23:59:59Z"
+    },
+    {
+      "id": "i15",
+      "classId": "c15",
+      "studentId": "u10",
+      "status": "pending",
+      "expiresAt": "2024-02-01T23:59:59Z"
+    },
+    {
+      "id": "i16",
+      "classId": "c16",
+      "studentId": "u12",
+      "status": "accepted",
+      "expiresAt": "2024-02-05T23:59:59Z"
+    },
+    {
+      "id": "i17",
+      "classId": "c17",
+      "studentId": "u14",
+      "status": "rejected",
+      "expiresAt": "2024-02-07T23:59:59Z"
+    },
+    {
+      "id": "i18",
+      "classId": "c18",
+      "studentId": "u16",
+      "status": "accepted",
+      "expiresAt": "2024-02-10T23:59:59Z"
+    },
+    {
+      "id": "i19",
+      "classId": "c19",
+      "studentId": "u18",
+      "status": "pending",
+      "expiresAt": "2024-02-15T23:59:59Z"
+    },
+    {
+      "id": "i20",
+      "classId": "c20",
+      "studentId": "u20",
+      "status": "accepted",
+      "expiresAt": "2024-02-20T23:59:59Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a1",
+      "classId": "c1",
+      "title": "Midterm Exam Date",
+      "content": "The midterm exam will be held on January 20th.",
+      "date": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": "a2",
+      "classId": "c2",
+      "title": "Assignment 2 Deadline",
+      "content": "Please submit your assignment by January 25th.",
+      "date": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "a3",
+      "classId": "c3",
+      "title": "Project Submission Reminder",
+      "content": "Don't forget to submit your programming project by February 1st.",
+      "date": "2024-01-18T10:00:00Z"
+    },
+    {
+      "id": "a4",
+      "classId": "c4",
+      "title": "Upcoming Lab Session",
+      "content": "We will have a practical session on January 25th.",
+      "date": "2024-01-19T10:00:00Z"
+    },
+    {
+      "id": "a5",
+      "classId": "c5",
+      "title": "Class Rescheduled",
+      "content": "The class for January 23rd is rescheduled to January 26th.",
+      "date": "2024-01-20T10:00:00Z"
+    },
+    {
+      "id": "a6",
+      "classId": "c6",
+      "title": "Essay Submission Reminder",
+      "content": "Submit your sociology essays by February 5th.",
+      "date": "2024-01-22T11:00:00Z"
+    },
+    {
+      "id": "a7",
+      "classId": "c7",
+      "title": "Exam Announcement",
+      "content": "The upcoming exam on political theories is on February 10th.",
+      "date": "2024-01-25T11:00:00Z"
+    },
+    {
+      "id": "a8",
+      "classId": "c8",
+      "title": "Macroeconomics Paper Deadline",
+      "content": "Your paper is due on February 20th.",
+      "date": "2024-02-01T12:00:00Z"
+    },
+    {
+      "id": "a9",
+      "classId": "c9",
+      "title": "Extra Credit Opportunity",
+      "content": "Submit your extra credit project by February 15th.",
+      "date": "2024-02-03T10:00:00Z"
+    },
+    {
+      "id": "a10",
+      "classId": "c10",
+      "title": "Class Cancellation Notice",
+      "content": "The class scheduled for January 28th is canceled.",
+      "date": "2024-01-24T10:00:00Z"
+    },
+    {
+      "id": "a11",
+      "classId": "c11",
+      "title": "Final Exam Date",
+      "content": "The final exam for Advanced Calculus is on February 25th.",
+      "date": "2024-02-05T10:00:00Z"
+    },
+    {
+      "id": "a12",
+      "classId": "c12",
+      "title": "Quiz Announcement",
+      "content": "A quiz on molecular structures will take place on January 29th.",
+      "date": "2024-01-28T10:00:00Z"
+    },
+    {
+      "id": "a13",
+      "classId": "c13",
+      "title": "Project Due Date",
+      "content": "Your project on networking is due on February 1st.",
+      "date": "2024-01-29T11:00:00Z"
+    },
+    {
+      "id": "a14",
+      "classId": "c14",
+      "title": "Quiz Results",
+      "content": "Quiz results for genetics have been posted.",
+      "date": "2024-02-01T12:00:00Z"
+    },
+    {
+      "id": "a15",
+      "classId": "c15",
+      "title": "Extra Office Hours",
+      "content": "The professor will hold extra office hours on February 5th.",
+      "date": "2024-02-02T10:00:00Z"
+    },
+    {
+      "id": "a16",
+      "classId": "c16",
+      "title": "Assignment Feedback",
+      "content": "Feedback for your assignment on national income has been posted.",
+      "date": "2024-02-05T10:00:00Z"
+    },
+    {
+      "id": "a17",
+      "classId": "c17",
+      "title": "Class Project Update",
+      "content": "Project updates are due by February 7th.",
+      "date": "2024-02-03T11:00:00Z"
+    },
+    {
+      "id": "a18",
+      "classId": "c18",
+      "title": "Midterm Exam Reminder",
+      "content": "The midterm for Introduction to Sociology is on February 10th.",
+      "date": "2024-02-01T10:00:00Z"
+    },
+    {
+      "id": "a19",
+      "classId": "c19",
+      "title": "Final Paper Submission",
+      "content": "Your final paper on political science is due on February 15th.",
+      "date": "2024-02-10T11:00:00Z"
+    },
+    {
+      "id": "a20",
+      "classId": "c20",
+      "title": "Global Economics Quiz",
+      "content": "There will be a quiz on global trade on February 20th.",
+      "date": "2024-02-15T12:00:00Z"
+    }
+  ],
+  "materials": [
     {
       "id": 1,
-      "title": "Golden Retriever: The Best Family Dog",
-      "url": "https://citizenshipper.com/blog/wp-content/uploads/2024/10/v2-j4f5h-9xu8f-768x442.jpg"
+      "title": "Basic Algebra Concepts",
+      "description": "An introduction to algebra, covering variables, equations, and functions.",
+      "likes": [
+        "u2",
+        "u4"
+      ],
+      "classid": "c1",
+      "comments": [
+        {
+          "id": 1,
+          "username": "alicebrown",
+          "content": "Clear and concise explanation, very helpful."
+        }
+      ],
+      "id": "e6fa"
     },
     {
       "id": 2,
-      "title": "10 Interesting Facts About Siamese Cats",
-      "url": "https://newsukraine.rbc.ua/static/img/c/u/cute_cat_laying_couch_23_2149078343_243378ec796cdc40dc78ec1598996921_1300x820_2ef9d273ffdfa856da4d0e2ad49464df_1200x675.jpg"
+      "title": "The Laws of Motion",
+      "description": "Understanding Newton's three laws of motion through practical examples.",
+      "likes": [
+        "u5",
+        "u9"
+      ],
+      "classid": "c2",
+      "comments": [
+        {
+          "id": 1,
+          "username": "bobwhite",
+          "content": "Great resource for grasping the basics of mechanics."
+        }
+      ],
+      "id": "03eb"
     },
     {
       "id": 3,
-      "title": "How to Train a Beagle: Tips & Tricks",
-      "url": "https://www.akc.org/wp-content/uploads/2021/01/Beagle-puppy-on-leash-walking-in-the-grass.jpeg"
+      "title": "Introduction to Programming",
+      "description": "Learn the fundamentals of programming, including data types, variables, and basic operations.",
+      "likes": [
+        "u6",
+        "u10"
+      ],
+      "classid": "c3",
+      "comments": [
+        {
+          "id": 1,
+          "username": "gracewilson",
+          "content": "This was a perfect starting point for my coding journey."
+        }
+      ],
+      "id": "31fc"
     },
     {
       "id": 4,
-      "title": "The Fascinating World of Parrots",
-      "url": "https://www.lapetfair.com/wp-content/uploads/2024/02/macaws-1024x585.jpg"
+      "title": "Genetic Inheritance Patterns",
+      "description": "Explores the different types of genetic inheritance, from dominant to recessive traits.",
+      "likes": [
+        "u7",
+        "u11"
+      ],
+      "classid": "c4",
+      "comments": [
+        {
+          "id": 1,
+          "username": "jackthompson",
+          "content": "The concepts are well explained and easy to follow."
+        }
+      ],
+      "id": "9a96"
     },
     {
       "id": 5,
-      "title": "The Charm of Pomeranians: Why They're Great Companions",
-      "url": "https://e87o6y2muwg.exactdn.com/wp-content/uploads/2024/06/pomeranian-ss2376586375.jpg?strip=all&lossy=1&ssl=1"
+      "title": "Cognitive Development Theories",
+      "description": "Dive into the key theories of cognitive development, from Piaget to Vygotsky.",
+      "likes": [
+        "u9",
+        "u13"
+      ],
+      "classid": "c5",
+      "comments": [
+        {
+          "id": 1,
+          "username": "liamharris",
+          "content": "Excellent overview of cognitive theories, really insightful."
+        }
+      ],
+      "id": "439a"
+    },
+    {
+      "id": 6,
+      "title": "Social Structures and Norms",
+      "description": "Understand the complex social structures and cultural norms that shape societies.",
+      "classid": "c6",
+      "likes": [
+        "u12",
+        "u16"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "username": "meganclark",
+          "content": "A thought-provoking read on the influence of societal norms."
+        }
+      ],
+      "id": "4835"
+    },
+    {
+      "id": 7,
+      "title": "Political Theories and Governance",
+      "description": "An exploration of the major political theories and systems of governance.",
+      "likes": [
+        "u13",
+        "u17"
+      ],
+      "classid": "c7",
+      "comments": [
+        {
+          "id": 1,
+          "username": "pauljohnson",
+          "content": "Very detailed and easy to understand political science concepts."
+        }
+      ],
+      "id": "13e4"
+    },
+    {
+      "id": 8,
+      "title": "Economic Theories and Market Dynamics",
+      "description": "Explains key economic theories and how markets function.",
+      "likes": [
+        "u16",
+        "u20"
+      ],
+      "classid": "c8",
+      "comments": [
+        {
+          "id": 1,
+          "username": "quinnlee",
+          "content": "Great resource for anyone interested in economics."
+        }
+      ],
+      "id": "0078"
+    },
+    {
+      "id": 9,
+      "title": "Advanced Calculus Techniques",
+      "description": "A guide to advanced calculus topics such as integration, differentiation, and multivariable functions.",
+      "likes": [
+        "u17",
+        "u21"
+      ],
+      "classid": "c9",
+      "comments": [
+        {
+          "id": 1,
+          "username": "unknownuser22",
+          "content": "Challenging but rewarding, the examples helped clarify the concepts."
+        }
+      ],
+      "id": "08ca"
+    },
+    {
+      "id": 10,
+      "title": "Legal Systems Overview",
+      "description": "An introductory look at legal systems across the world, focusing on common law and civil law systems.",
+      "likes": [
+        "u19",
+        "u23"
+      ],
+      "classid": "c10",
+      "comments": [
+        {
+          "id": 1,
+          "username": "unknownuser24",
+          "content": "Excellent resource for understanding the basics of law."
+        }
+      ],
+      "id": "d2cd"
     }
   ]
 }
